@@ -1,0 +1,218 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "TenantAPI",
+    "description": "API to get Tenant Data",
+    "version": "1"
+  },
+  "tags": [],
+  "paths": {
+    "/tenant/{id}": {
+      "get": {
+        "summary": "",
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "success response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TenantSchema"
+                },
+                "example": [
+                  {
+                    "msg": "success"
+                  }
+                ]
+              }
+            },
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "summary": "",
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "success response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TenantSchema"
+                },
+                "example": [
+                  {
+                    "msg": "success"
+                  }
+                ]
+              }
+            },
+            "headers": {}
+          }
+        },
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TenantSchema"
+              },
+              "example": []
+            }
+          }
+        }
+      }
+    },
+    "/rentals": {
+      "get": {
+        "summary": "",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "success response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "msg": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "example": [
+                  {
+                    "msg": "success"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "success response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "msg": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "example": [
+                  {
+                    "msg": "success"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "description": "",
+          "content": {}
+        }
+      },
+      "delete": {
+        "summary": "",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "success response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "msg": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "example": [
+                  {
+                    "msg": "success"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TenantSchema": {
+        "type": "object",
+        "properties": {
+          "tenant": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "default": "id"
+              },
+              "first-name": {
+                "type": "string",
+                "default": "string"
+              },
+              "last-name": {
+                "type": "string",
+                "default": "string"
+              },
+              "address": {
+                "type": "string",
+                "default": "string"
+              },
+              "email": {
+                "type": "string",
+                "default": "string"
+              },
+              "phone": {
+                "type": "string",
+                "default": "phone"
+              }
+            }
+          }
+        },
+        "description": "Tenant"
+      }
+    }
+  }
+}

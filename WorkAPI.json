@@ -1,0 +1,126 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "WorkAPI",
+    "description": "API to list work",
+    "version": "1"
+  },
+  "tags": [],
+  "paths": {
+    "/work": {
+      "get": {
+        "summary": "",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/work"
+                },
+                "example": []
+              }
+            },
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "summary": "",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "success response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "msg": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "example": [
+                  {
+                    "msg": "success"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/work"
+              },
+              "example": []
+            }
+          }
+        }
+      }
+    },
+    "/listWork": {
+      "get": {
+        "summary": "",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "success response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/work"
+                },
+                "example": [
+                  {
+                    "msg": "success"
+                  }
+                ]
+              }
+            },
+            "headers": {}
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "work": {
+        "type": "object",
+        "properties": {
+          "work": {
+            "type": "object",
+            "properties": {
+              "tenantId": {
+                "type": "string",
+                "default": "string"
+              },
+              "date": {
+                "type": "string",
+                "default": "string"
+              },
+              "itemsToDo": {
+                "type": "string",
+                "default": "string"
+              },
+              "notes": {
+                "type": "string",
+                "default": "string"
+              }
+            }
+          }
+        },
+        "description": "work"
+      }
+    }
+  }
+}
