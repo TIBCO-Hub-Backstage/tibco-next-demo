@@ -17,7 +17,7 @@ spec:
   type: openapi
   lifecycle: production
 #  system: car-order-system
-#  owner: operational-department
+  owner: operational-department
 #  apiConsumedBy: [ "component:car-order-ui"]
   definition:
     $text: ./TenantAPI.json
