@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tenant-api
+  description: "API to get Tenant Data"
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo/blob/master/TenantAPI.json
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+#  system: car-order-system
+#  owner: operational-department
+#  apiConsumedBy: [ "component:car-order-ui"]
+  definition:
+    $text: ./TenantAPI.json
