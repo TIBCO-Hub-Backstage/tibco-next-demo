@@ -65,3 +65,4 @@ spec:
     - ./flogo-discount-calculator.yaml
     - ./spotfire-car-analyzer.yaml
     - ./ui-car-order-system.yaml
+    - ./calculator-wsdl-direct-api.yaml
