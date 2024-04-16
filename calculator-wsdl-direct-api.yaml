@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: hello-world-wsdl
-  description: Hello World example for WSDL
+  name: calculator-wsdl
+  description: Calculator example for WSDL
 spec:
   type: wsdl
   lifecycle: deprecated
-  owner: foo
+  owner: CarImporter
   definition:
     $text: ./calculator.wsdl
