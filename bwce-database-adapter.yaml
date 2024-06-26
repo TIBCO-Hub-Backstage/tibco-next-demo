@@ -8,6 +8,7 @@ metadata:
     - data-layer
     - bwce
     - adapter
+    - platform
   links:
     - title: TIBCO Business Works
       url: https://www.tibco.com/products/tibco-businessworks
