@@ -9,6 +9,19 @@ metadata:
     - bwce
     - adapter
     - platform
+  tibcoPlatformApps:
+    - appType: BWCE
+      appName: BWCE-app
+      dataPlaneName: DP-dev
+      dpId: cnjh3r05qajpjita0qqg
+      capabilityInstanceId: cnjh624ccf6n3oht2vpg
+      appId: cogvv7lrm4plbf0a4rug
+    - appType: BWCE
+      appName: BWCE-app1
+      dataPlaneName: DP-prod
+      dpId: demodpid2
+      capabilityInstanceId: democapabilityInstanceid2
+      appId: demoappid2
   links:
     - title: TIBCO Business Works
       url: https://www.tibco.com/products/tibco-businessworks
