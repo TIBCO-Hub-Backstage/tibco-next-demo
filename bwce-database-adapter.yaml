@@ -19,9 +19,9 @@ metadata:
     - appType: BWCE
       appName: petstore_sample_client_application
       dataPlaneName: Platform-Demo-EKS (Production)
-      dpId: cnjh3r05qajpjita0qqg
-      capabilityInstanceId: cnjh624ccf6n3oht2vpg
-      appId: cpl0a4fg14bksqamb8u0
+      dpId: cq2hbqibboqvnaajcdf0
+      capabilityInstanceId: cq2hf5ibboqvnaajcdgg
+      appId: cq6j5ksq760lr23qabig
   links:
     - title: TIBCO Business Works
       url: https://www.tibco.com/products/tibco-businessworks
