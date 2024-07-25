@@ -15,7 +15,7 @@ metadata:
       dataPlaneName: Platform-Demo-EKS (Development)
       dpId: cnjh3r05qajpjita0qqg
       capabilityInstanceId: cnjh624ccf6n3oht2vpg
-      appId: cogvv7lrm4plbf0a4rug
+      appId: cpl0a4fg14bksqamb8u0
     - appType: BWCE
       appName: petstore_sample_client_application
       dataPlaneName: Platform-Demo-EKS (Production)
