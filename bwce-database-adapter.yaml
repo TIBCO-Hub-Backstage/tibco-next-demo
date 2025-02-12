@@ -11,17 +11,17 @@ metadata:
     - platform
   tibcoPlatformApps:
     - appType: BWCE
-      appName: petstore_sample_client_application
+      appName: Database Adapter
       dataPlaneName: Platform-Demo-EKS (Development)
-      dpId: cnjh3r05qajpjita0qqg
-      capabilityInstanceId: cnjh624ccf6n3oht2vpg
-      appId: cpl0a4fg14bksqamb8u0
+      dpId: cq1duk2jcp26pefl1d60
+      capabilityInstanceId: csfqing8t66kv5v3aotg
+      appId: csfqk5cbp2ppslobqgug
     - appType: BWCE
-      appName: petstore_sample_client_application
+      appName: Database Adapter
       dataPlaneName: Platform-Demo-EKS (Production)
-      dpId: cq2hbqibboqvnaajcdf0
-      capabilityInstanceId: cq2hf5ibboqvnaajcdgg
-      appId: cq6j5ksq760lr23qabig
+      dpId: cq1duk2jcp26pefl1d60
+      capabilityInstanceId: csfqing8t66kv5v3aotg
+      appId: csfqk5cbp2ppslobqgug
   links:
     - title: TIBCO Business Works
       url: https://www.tibco.com/products/tibco-businessworks
