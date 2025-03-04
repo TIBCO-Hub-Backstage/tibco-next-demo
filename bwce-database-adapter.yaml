@@ -10,12 +10,13 @@ metadata:
     - adapter
     - platform
   tibcoPlatformApps:
+# https://tibcoats.us-west.my.tibco.com/cp/bwce/appdetails/processes?dp_id=cuico3vctghk7irje3a0&capability_instance_id=cv3bc6mkokbud8rqrpu0&app_id=cv3bg7dviu18b0t91lb0
     - appType: BWCE
       appName: Database Adapter
       dataPlaneName: Platform-Demo-EKS (Development)
-      dpId: cq1duk2jcp26pefl1d60
-      capabilityInstanceId: csfqing8t66kv5v3aotg
-      appId: csfqk5cbp2ppslobqgug
+      dpId: cuico3vctghk7irje3a0
+      capabilityInstanceId: cv3bc6mkokbud8rqrpu0
+      appId: cv3bg7dviu18b0t91lb0
     - appType: BWCE
       appName: Database Adapter
       dataPlaneName: Platform-Demo-EKS (Production)
