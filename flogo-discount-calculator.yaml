@@ -15,7 +15,7 @@ metadata:
       dpId: cuico3vctghk7irje3a0
       capabilityInstanceId: cv2qreukokbud8rqrpn0
       appId: cv2s90lviu18b0t91l50
-    - appType: BWCE
+    - appType: Flogo
       appName: Discount Calculator
       dataPlaneName: Platform-Demo-EKS (Production)
       dpId: cuico3vctghk7irje3a0
