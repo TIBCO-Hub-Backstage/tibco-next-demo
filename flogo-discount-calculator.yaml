@@ -7,6 +7,7 @@ metadata:
     - backend
     - data-layer
     - flogo
+    - platform
   tibcoPlatformApps:
     - appType: Flogo
       appName: Discount Calculator
