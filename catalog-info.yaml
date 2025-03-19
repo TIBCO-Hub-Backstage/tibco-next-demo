@@ -60,7 +60,8 @@ spec:
   targets:
     - ./ci-resources.yaml
     - ./car-order-system.yaml
-    - ./bwce-database-adapter.yaml
+#    - ./bwce-database-adapter.yaml
+    - ./db-adapter-linking-demo/bwce-database-adapter.yaml
     - ./flogo-car-information-provider.yaml
     - ./flogo-discount-calculator.yaml
     - ./spotfire-car-analyzer.yaml
