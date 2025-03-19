@@ -36,7 +36,6 @@ A **database adapter** is a software component that serves as an intermediary be
 # 📊 Database Adapter Test Results
 
 ## ✅ Test Suite: Database Adapter - PostgreSQL
-<div style="background-color:#cce5ff; padding: 10px; border-radius: 5px;">
 
 | Test Case                                       | Status   | Execution Time | Notes                                               |
 |-----------------------------------------------|---------|---------------|------------------------------------------------------|
@@ -69,7 +68,6 @@ The database adapter is stable and ready for production use.
 
 ## ✅ Test Suite: Database Adapter - PostgreSQL
 ### 🗓️ Test Date: 2025-03-19
-<div style="background-color:#fddec5; padding: 10px; border-radius: 5px;">
 
 | Test Case                                       | Status   | Execution Time | Notes                                                        |
 |-----------------------------------------------|---------|---------------|---------------------------------------------------------------|
