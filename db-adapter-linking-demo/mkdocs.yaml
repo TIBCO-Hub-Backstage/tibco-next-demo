@@ -3,6 +3,9 @@ site_description: "A system to import Cars"
 
 nav:
   - Introduction: index.md
+  - Test_Results_1: test_1.md
+  - Test_Results_2: test_2.md
+
 
 plugins:
   - techdocs-core
