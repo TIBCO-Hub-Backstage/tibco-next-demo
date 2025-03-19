@@ -39,6 +39,7 @@ spec:
   system: car-order-system
   owner: operational-department
   providesApis: [ "car-details-api" ]
+  consumesApis: [ "car-information-api" ]
   dependsOn:
     - resource:default/cars-database
     - component:default/discount-calculator
