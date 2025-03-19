@@ -1,0 +1,65 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bwce-db-adapter"
+  description: "Database Adapter"
+  tags:
+    - backend
+    - data-layer
+    - bwce
+    - adapter
+    - platform
+  tibcoPlatformApps:
+    - appType: BWCE
+      appName: Database Adapter
+      dataPlaneName: Platform-Demo-EKS (Development)
+      dpId: cq1duk2jcp26pefl1d60
+      capabilityInstanceId: csfqing8t66kv5v3aotg
+      appId: csfqk5cbp2ppslobqgug
+    - appType: BWCE
+      appName: Database Adapter
+      dataPlaneName: Platform-Demo-EKS (Production)
+      dpId: cq1duk2jcp26pefl1d60
+      capabilityInstanceId: csfqing8t66kv5v3aotg
+      appId: csfqk5cbp2ppslobqgug
+  links:
+    - title: TIBCO Business Works
+      url: https://www.tibco.com/products/tibco-businessworks
+    - title: BWCE Documentation
+      url: https://docs.tibco.com/products/tibco-businessworks-container-edition-2-8-1
+  annotations:
+    github.com/project-slug: TIBCO-Hub-Backstage/tibco-next-demo
+    backstage.io/techdocs-ref: dir:.
+#    backstage.io/kubernetes-id: bwce-ah-test-1
+#    jenkins.io/job-full-name: Build_BWCE_EAR_DB
+spec:
+  type: service
+  lifecycle: production
+  system: car-order-system
+  owner: operational-department
+  providesApis: [ "car-details-api" ]
+  dependsOn:
+    - resource:default/cars-database
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "car-details-api"
+  description: "An API that provides car details"
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo/blob/master/sample-api.json
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "CarImporter"
+  apiConsumedBy: [ "component:discount-calculator","component:car-information-provider"]
+  definition:
+    $text: ./sample-api.json
