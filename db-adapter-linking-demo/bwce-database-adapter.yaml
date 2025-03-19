@@ -40,26 +40,26 @@ spec:
   providesApis: [ "car-details-api" ]
   dependsOn:
     - resource:default/cars-database
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: "car-details-api"
-  description: "An API that provides car details"
-  tags:
-    - store
-    - rest
-  links:
-    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo
-      title: GitHub Repo
-      icon: github
-    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo/blob/master/sample-api.json
-      title: API Spec
-      icon: code
-spec:
-  type: openapi
-  lifecycle: production
-  owner: "CarImporter"
-  apiConsumedBy: [ "component:discount-calculator","component:car-information-provider"]
-  definition:
-    $text: ./sample-api.json
+#---
+#apiVersion: backstage.io/v1alpha1
+#kind: API
+#metadata:
+#  name: "car-details-api"
+#  description: "An API that provides car details"
+#  tags:
+#    - store
+#    - rest
+#  links:
+#    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo
+#      title: GitHub Repo
+#      icon: github
+#    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo/blob/master/sample-api.json
+#      title: API Spec
+#      icon: code
+#spec:
+#  type: openapi
+#  lifecycle: production
+#  owner: "CarImporter"
+#  apiConsumedBy: [ "component:discount-calculator","component:car-information-provider"]
+#  definition:
+#    $text: ./sample-api.json
