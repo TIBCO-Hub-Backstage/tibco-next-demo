@@ -7,6 +7,19 @@ metadata:
     - backend
     - data-layer
     - flogo
+  tibcoPlatformApps:
+    - appType: Flogo
+      appName: Discount Calculator
+      dataPlaneName: Platform-Demo-EKS (Development)
+      dpId: cuico3vctghk7irje3a0
+      capabilityInstanceId: cv2qreukokbud8rqrpn0
+      appId: cv2s90lviu18b0t91l50
+    - appType: BWCE
+      appName: Discount Calculator
+      dataPlaneName: Platform-Demo-EKS (Production)
+      dpId: cuico3vctghk7irje3a0
+      capabilityInstanceId: cv2qreukokbud8rqrpn0
+      appId: cv2s90lviu18b0t91l50
   links:
     - title: TIBCO Cloud Home
       url: https://cloud.tibco.com/
@@ -18,6 +31,7 @@ metadata:
       url: vscode://file/Users/hpeters/VSCodeFolders/tibco-next-flogo-demo/flogo-app-discount-calculator.json
     - title: VSCode Editor (Folder)
       url: vscode://file/Users/hpeters/VSCodeFolders/tibco-next-flogo-demo/
+# https://tibcoats.us-west.my.tibco.com/cp/flogo/appdetails/endpoints?dp_id=cuico3vctghk7irje3a0&capability_instance_id=cv2qreukokbud8rqrpn0&app_id=cv2s90lviu18b0t91l50
   annotations:
     github.com/project-slug: TIBCO-Hub-Backstage/tibco-next-demo
     backstage.io/techdocs-ref: dir:.
