@@ -28,7 +28,7 @@ metadata:
     - title: BWCE Documentation
       url: https://docs.tibco.com/products/tibco-businessworks-container-edition-2-8-1
   annotations:
-    github.com/project-slug: TIBCO-Hub-Backstage/tibco-next-demo
+    github.com/project-slug: TIBCO-Hub-Backstage/github-actions
     backstage.io/techdocs-ref: dir:.
 #    backstage.io/kubernetes-id: bwce-ah-test-1
 #    jenkins.io/job-full-name: Build_BWCE_EAR_DB
