@@ -9,19 +9,20 @@ metadata:
     - bwce
     - adapter
     - platform
+# https://tibcoats.us-west.my.tibco.com/cp/bwce/appdetails/processes?dp_id=cuico3vctghk7irje3a0&capability_instance_id=cv3bc6mkokbud8rqrpu0&app_id=cvdc8o5viu18b0t91md0
   tibcoPlatformApps:
     - appType: BWCE
       appName: Database Adapter
       dataPlaneName: Platform-Demo-EKS (Development)
-      dpId: cq1duk2jcp26pefl1d60
-      capabilityInstanceId: csfqing8t66kv5v3aotg
-      appId: csfqk5cbp2ppslobqgug
+      dpId: cuico3vctghk7irje3a0
+      capabilityInstanceId: cv3bc6mkokbud8rqrpu0
+      appId: cvdc8o5viu18b0t91md0
     - appType: BWCE
       appName: Database Adapter
       dataPlaneName: Platform-Demo-EKS (Production)
-      dpId: cq1duk2jcp26pefl1d60
-      capabilityInstanceId: csfqing8t66kv5v3aotg
-      appId: csfqk5cbp2ppslobqgug
+      dpId: cuico3vctghk7irje3a0
+      capabilityInstanceId: cv3bc6mkokbud8rqrpu0
+      appId: cvdc8o5viu18b0t91md0
   links:
     - title: TIBCO Business Works
       url: https://www.tibco.com/products/tibco-businessworks
@@ -40,6 +41,7 @@ spec:
   providesApis: [ "car-details-api" ]
   dependsOn:
     - resource:default/cars-database
+    - component:default/discount-calculator
 #---
 #apiVersion: backstage.io/v1alpha1
 #kind: API
