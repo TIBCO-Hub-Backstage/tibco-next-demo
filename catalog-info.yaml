@@ -35,7 +35,7 @@ spec:
   profile:
     displayName: The Operational Department
     email: info@acme.com
-    picture: https://assets.datamation.com/uploads/2023/06/dm-top-database-challenges-696x457.png
+    picture: https://thispersondoesnotexist.com/
   parent: CarImporter
   children: [ ]
 ---
