@@ -8,7 +8,7 @@ spec:
   profile:
     displayName: Car Importer
     email: info@acme.com
-    picture: https://en.wikipedia.org/wiki/Car#/media/File:Late_model_Ford_Model_T.jpg
+    picture: https://thispersondoesnotexist.com/
   children: [ finance-department, operational-department ]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -21,7 +21,7 @@ spec:
   profile:
     displayName: The Finance Department
     email: info@acme.com
-    picture: https://en.wikipedia.org/wiki/Finance#/media/File:Philippine-stock-market-board.jpg
+    picture: https://thispersondoesnotexist.com/
   parent: CarImporter
   children: [ ]
 ---
