@@ -8,6 +8,7 @@ metadata:
     - database
     - car-details
 spec:
+  system: car-order-system
   type: database
   lifecycle: production
   owner: operational-department
